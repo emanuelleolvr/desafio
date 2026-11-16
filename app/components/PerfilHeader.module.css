@@ -1,0 +1,145 @@
+.card {
+  background-color: #1b1f23;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #2e3338;
+}
+
+.banner {
+  height: 195px;
+  background: linear-gradient(90deg, #161b22 0%, #1f2937 60%, #111827 100%);
+  position: relative;
+  padding: 16px 32px;
+  overflow: hidden;
+}
+
+.codigoFake {
+  font-family: "Courier New", monospace;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #cbd5e1;
+  opacity: 0.85;
+  margin-left: 40px;
+}
+
+.indent {
+  margin-left: 20px;
+}
+
+.azul { color: #60a5fa; }
+.rosa { color: #f472b6; font-weight: bold; }
+.laranja { color: #fb923c; font-weight: bold; }
+.amarelo { color: #facc15; font-weight: bold; }
+.cinza { color: #94a3b8; }
+
+.conteudo {
+  padding: 0 24px 24px 24px;
+  position: relative;
+}
+
+.avatar {
+  width: 152px;
+  height: 152px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #1b1f23;
+  margin-top: -105px;
+  margin-bottom: 8px;
+  background-color: #334155;
+}
+
+.infoGrid {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.nome {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.titulo {
+  font-size: 16px;
+  color: #e9e9e9;
+  margin-top: 2px;
+}
+
+.hashtags {
+  font-size: 14px;
+  color: #a8abae;
+  margin-top: 4px;
+}
+
+.local {
+  font-size: 14px;
+  color: #a8abae;
+  margin-top: 6px;
+}
+
+.link {
+  color: #70b5f9;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.conexoes {
+  color: #70b5f9;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.botoes {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.btnPrimario {
+  background-color: #70b5f9;
+  color: #000000;
+  border: none;
+  padding: 6px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btnSecundario {
+  background-color: transparent;
+  color: #70b5f9;
+  border: 1px solid #70b5f9;
+  padding: 6px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.colunaDireita {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 210px;
+  margin-top: 8px;
+}
+
+.itemInstituicao {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #e9e9e9;
+}
+
+.logoPequena {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  object-fit: cover;
+}
